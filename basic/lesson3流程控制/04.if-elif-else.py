@@ -41,3 +41,10 @@ elif age >= 30 and age < 60 :
     print('你已经中年了！')
 elif age >= 60 :
     print('你已经退休了！')
+
+if 18 <= age < 30:
+    print('你已经成年了！')
+elif 30 <= age < 60:
+    print('你已经中年了！')
+elif age >= 60:
+    print('你已经退休了！')

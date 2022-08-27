@@ -1,5 +1,5 @@
 # 列表的方法
-stus = ['孙悟空','猪八戒','沙和尚','唐僧']
+stus = ['孙悟空', '猪八戒', '沙和尚', '唐僧']
 # print('原列表：',stus)
 
 # append() 
@@ -42,10 +42,10 @@ stus = ['孙悟空','猪八戒','沙和尚','唐僧']
 # 用来对列表中的元素进行排序，默认是升序排列
 # 如果需要降序排列，则需要传递一个reverse=True作为参数
 my_list = list('asnbdnbasdabd')
-my_list = [10,1,20,3,4,5,0,-2]
+my_list = [10, 1, 20, 3, 4, 5, 0, -2]
 
-print('修改前',my_list)
+print('修改前', my_list)
 
 my_list.sort(reverse=True)
-print('修改后',my_list)
+print('修改后', my_list)
 # print('修改后：',stus)

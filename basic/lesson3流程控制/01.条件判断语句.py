@@ -26,7 +26,7 @@ num = 10
 # if num > 10 : print('num比10大！')
 # print('谁也管不了我')
 
-if False :
+if False:
     print(123)
     print(456)
     print(789)
@@ -47,3 +47,8 @@ num = 28
 # 在命令行让用户输入一个用户名，获取用户输入，并进行判断
 # 如果用户输入的用户名是admin，则显示欢迎管理员光临
 # 如果用户输入的是其他的用户名，则什么也不做
+
+if str.__eq__("admin"):
+    print("欢迎光临")
+else:
+    print("走开")
